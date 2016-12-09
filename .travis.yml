@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - 1.4.2
+  - 1.7.3
+  - tip
+
+install:
+  - go get -v ./...
+  - go get golang.org/x/text/transform

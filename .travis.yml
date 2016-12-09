@@ -8,3 +8,4 @@ go:
 install:
   - go get -v ./...
   - go get golang.org/x/text/transform
+  - go get github.com/kylelemons/godebug/pretty

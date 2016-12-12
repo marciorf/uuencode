@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/cention-sany/uuencode"
+	"github.com/sanylcs/uuencode"
 	"golang.org/x/text/transform"
 )
 

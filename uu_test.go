@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cention-sany/uuencode"
 	"github.com/kylelemons/godebug/pretty"
+	"github.com/sanylcs/uuencode"
 	"golang.org/x/text/transform"
 )
 

@@ -1,0 +1,4 @@
+begin 664 notEnoughLineCharsError.txt
+!12345678
+`
+end

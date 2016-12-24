@@ -11,9 +11,9 @@ import (
 	"golang.org/x/text/transform"
 )
 
-func ExampleUUDecFirstOne() {
+func ExampleDecode() {
 	r := bytes.NewBufferString("begin 664 uutest1.txt\n($@`0$!&0````\n`\nend\n")
-	tf := uuencode.NewDecFirstOne()
+	tf := uuencode.Uue.NewDecoder()
 	tr := transform.NewReader(r, tf)
 	output, err := ioutil.ReadAll(tr)
 	if err != nil {
